@@ -1,0 +1,472 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>CV - Portfolio</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet" />
+
+<!-- CSS -->
+<link th:href="@{/common-css/bootstrap.css}" rel="stylesheet" />
+<link th:href="@{/common-css/ionicons.css}" rel="stylesheet" />
+<link th:href="@{/common-css/fluidbox.min.css}" rel="stylesheet" />
+<link th:href="@{/01-cv-portfolio/css/styles.css}" rel="stylesheet" />
+<link th:href="@{/01-cv-portfolio/css/responsive.css}" rel="stylesheet" />
+
+</head>
+<body>
+
+	<!-- HEADER -->
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>Comerciante José Formiga de Assis, 77 AP 101 -
+									Funcionários</h5>
+								<h5>João Pessoa, PB</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline"></i>
+							<div class="right-area">
+								<h5>83 99884 4376</h5>
+								<h6>Pessoal</h6>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5>brunofelix.dev@gmail.com</h5>
+								<h6>Resposta imediata</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a class="downlad-btn" href="https://resume.io/r/3nNJAGZVp" target="_blank">Download CV</a>
+		</div>
+	</header>
+
+	<!-- INFORMACOES PESSOAIS E MIDIAS SOCIAIS -->
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img">
+							<img src="images/profile.jpg" alt="">
+						</div>
+						<h2>
+							<b>Bruno Felix</b>
+						</h2>
+						<h4 class="font-yellow">Android / iOS Developer</h4>
+						<ul class="information margin-tb-30">
+							<li><b>Idade : </b>31</li>
+							<li><b>Estado Civíl : </b>Solteiro</li>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://www.linkedin.com/in/brunofelix7/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://github.com/brunofelix7" target="_blank"><i class="ion-social-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SOBRE MIM -->
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3>
+							<b>Sobre mim</b>
+						</h3>
+						<h6 class="font-lite-black">
+							<b>PROFISSIONAL</b>
+						</h6>
+					</div>
+				</div>
+				<!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">Sou um profissional de tecnologia
+						especializado em desenvolvimento mobile nativo.
+						Atualmente trabalho na Indra Company como Software Engineer
+						atuando em projetos Android e iOS (Java, Kotlin, Swift). Também atuo em projetos de arquitetura 
+						Java Web (Java EE ou Spring Framework). Estou a disposição para trabalhar em projetos freelancer. 
+						Sou autodidata, nas horas vagas procuro sempre me atualizar no estudo de novas tecnologias.</p>
+
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".95">
+									<div></div>
+									<h6 class="progress-title">Android</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".90">
+									<div></div>
+									<h6 class="progress-title">iOS</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".85">
+									<div></div>
+									<h6 class="progress-title">Java SE / EE</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".85">
+									<div></div>
+									<h6 class="progress-title">Spring</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- EXPERIENCIA PROFISSIONAL -->
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3>
+							<b>Experiência Profissional</b>
+						</h3>
+						<h6 class="font-lite-black">
+							<b>TRABALHOS ANTERIORES</b>
+						</h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="experience margin-b-50">
+						<h4>
+							<b>ANALISTA DE SISTEMAS PLENO</b>
+						</h4>
+						<h5 class="font-yellow">
+							<b>INDRA COMPANY</b>
+						</h5>
+						<h6 class="margin-t-10">JUNHO 2019 - PRESENTE</h6>
+						<p class="font-semi-white margin-tb-30">Trabalho no
+							desenvolvimento de aplicações Web e Mobile.</p>
+						<ul class="list margin-b-30">
+							<li>Android (Java / Kotlin)</li>
+							<li>iOS (Swift)</li>
+							<li>Java EE</li>
+							<li>Spring Framework</li>
+						</ul>
+					</div>
+					<div class="experience margin-b-50">
+						<h4>
+							<b>DESENVOLVEDOR FULLSTACK (WEB | MOBILE)</b>
+						</h4>
+						<h5 class="font-yellow">
+							<b>SYNCTECH SOLUÇÕES</b>
+						</h5>
+						<h6 class="margin-t-10">MAIO 2017 - MAIO 2019</h6>
+						<p class="font-semi-white margin-tb-30">Trabalhei como
+							Fullstack no desenvolvimento de aplicativos android, sistemas web
+							e API's REST. As tecnologias que eu utilizo são: Java (Android),
+							C#, ASP.NET MVC 5 e Core, HTML, CSS, JavaScript, jQuery e
+							Bootstrap.</p>
+						<ul class="list margin-b-30">
+							<li>Android (Java)</li>
+							<li>ASP.NET MVC</li>
+							<li>ASP.NET Core</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- FORMACAO ACADEMICA -->
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3>
+							<b>Educação</b>
+						</h3>
+						<h6 class="font-lite-black">
+							<b>CARREIRA ACADÊMICA</b>
+						</h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4>
+								<b>PÓS GRADUANDO EM DESENVOLVIMENTO DE APLICAÇÕES PARA WEB</b>
+							</h4>
+							<h5 class="font-yellow">
+								<b>UNIPÊ - CENTRO UNIVERSITÁRIO DE JOÃO PESSOA</b>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">GRADUADO EM ABRIL
+								DE 2021 (PREVISÃO)</h6>
+							<p class="margin-tb-30"></p>
+						</div>
+						<div class="education margin-b-50">
+							<h4>
+								<b>GRADUADO EM SISTEMAS PARA INTERNET</b>
+							</h4>
+							<h5 class="font-yellow">
+								<b>UNIPÊ - CENTRO UNIVERSITÁRIO DE JOÃO PESSOA</b>
+							</h5>
+							<h6 class="font-lite-black margin-t-10">GRADUADO EM JULHO DE
+								2017</h6>
+							<p class="margin-tb-30"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- PORTFOLIO DE APLICACOES -->
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3>
+							<b>Portfolio</b>
+						</h3>
+						<h6 class="font-lite-black">
+							<b>Meus projetos</b>
+						</h6>
+					</div>
+				</div>
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>TODOS</b></a> 
+						<a href="#"	data-filter=".android"><b>ANDROID</b></a> 
+						<a href="#"	data-filter=".ios"><b>IOS</b></a>
+						<!-- <a href="#" data-filter=".web"><b>WEB</b></a>  -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- APLICACOES -->
+		<div class="portfolioContainer">
+		
+			<!-- ANDROID -->
+			<div class="p-item android">
+				<a href="images/android/android_10.png" data-fluidbox> 
+					<img src="images/android/android_10.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_09.png" data-fluidbox> 
+					<img src="images/android/android_09.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_11.png" data-fluidbox> 
+					<img src="images/android/android_11.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_08.png" data-fluidbox> 
+					<img src="images/android/android_08.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_00.png" data-fluidbox> 
+					<img src="images/android/android_00.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_01.png" data-fluidbox> 
+					<img src="images/android/android_01.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_02.png" data-fluidbox> 
+					<img src="images/android/android_02.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_03.png" data-fluidbox> 
+					<img src="images/android/android_03.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_04.png" data-fluidbox> 
+					<img src="images/android/android_04.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_05.png" data-fluidbox> 
+					<img src="images/android/android_05.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_06.png" data-fluidbox> 
+					<img src="images/android/android_06.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item android">
+				<a href="images/android/android_07.png" data-fluidbox> 
+					<img src="images/android/android_07.png" alt="" width="600" height="220">
+				</a>
+			</div>
+
+			<!-- IOS -->
+			<div class="p-item ios">
+				<a href="images/ios/ios-02.png" data-fluidbox> 
+					<img src="images/ios/ios-02.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item ios">
+				<a href="images/ios/ios-03.png" data-fluidbox> 
+					<img src="images/ios/ios-03.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item ios">
+				<a href="images/ios/ios-04.png" data-fluidbox> 
+					<img src="images/ios/ios-04.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item ios">
+				<a href="images/ios/ios-01.png" data-fluidbox> 
+					<img src="images/ios/ios-01.png" alt="" width="600" height="220">
+				</a>
+			</div>
+
+			<!-- WEB -->
+			<!-- <div class="p-item web">
+				<a href="images/web/web_01.png" data-fluidbox> 
+					<img src="images/web/web_01.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_02.png" data-fluidbox> 
+					<img src="images/web/web_02.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_03.jpeg" data-fluidbox> 
+					<img src="images/web/web_03.jpeg" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_04.jpeg" data-fluidbox> 
+					<img src="images/web/web_04.jpeg" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_05.jpeg" data-fluidbox> 
+					<img src="images/web/web_05.jpeg" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_06.png" data-fluidbox> 
+					<img src="images/web/web_06.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_07.png" data-fluidbox> 
+					<img src="images/web/web_07.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_08.png" data-fluidbox> 
+					<img src="images/web/web_08.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_09.png" data-fluidbox> 
+					<img src="images/web/web_09.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_10.jpg" data-fluidbox> 
+					<img src="images/web/web_10.jpg" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_11.png" data-fluidbox> 
+					<img src="images/web/web_11.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_12.png" data-fluidbox> 
+					<img src="images/web/web_12.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_13.png" data-fluidbox> 
+					<img src="images/web/web_13.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_14.png" data-fluidbox> 
+					<img src="images/web/web_14.png" alt="" width="600" height="220">
+				</a>
+			</div>
+			<div class="p-item web">
+				<a href="images/web/web_15.png" data-fluidbox> 
+					<img src="images/web/web_15.png" alt="" width="600" height="220">
+				</a>
+			</div> -->
+			
+		</div>
+
+	</section>
+	
+	<!-- FOOTER -->
+	<footer style="margin-top: 20px">
+		<p class="copyright white-text">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			Copyright &copy;
+			<script>
+				document.write(new Date().getFullYear());
+			</script>
+			All rights reserved | This template is made with <i class="ion-heart"
+				aria-hidden="true"></i> by <a href="https://colorlib.com"
+				target="_blank">Colorlib</a>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</p>
+	</footer>
+
+	<!-- SCIPTS -->
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+	<script src="common-js/tether.min.js"></script>
+	<script src="common-js/bootstrap.js"></script>
+	<script src="common-js/isotope.pkgd.min.js"></script>
+	<script src="common-js/jquery.waypoints.min.js"></script>
+	<script src="common-js/progressbar.min.js"></script>
+	<script src="common-js/jquery.fluidbox.min.js"></script>
+	<script src="common-js/scripts.js"></script>
+</body>
+</html>
